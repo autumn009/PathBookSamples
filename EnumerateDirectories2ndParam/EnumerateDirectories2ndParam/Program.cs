@@ -8,7 +8,7 @@ sub("*.*.*");
 void sub(string searchPattern)
 {
     Console.WriteLine($"searchPattern={searchPattern}");
-    foreach (var item in Directory.GetDirectories(".", searchPattern, SearchOption.AllDirectories))
+    foreach (var item in Directory.EnumerateDirectories(".", searchPattern, SearchOption.AllDirectories))
     {
         Console.WriteLine(item);
     }
