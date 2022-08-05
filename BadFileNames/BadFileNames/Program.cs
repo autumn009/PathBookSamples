@@ -10,10 +10,13 @@ foreach (var filename in names)
     try
     {
         File.WriteAllText(filename, "SAMPLE");
-        Console.WriteLine($"{filename} OK");
+        if( File.Exists(filename))
+            Console.WriteLine($"{filename} OK");
+        else
+            Console.WriteLine($"{filename} OK, BUT NOT CREATED");
     }
     catch (IOException e)
     {
-        Console.WriteLine($"{filename} BAD");
+        Console.WriteLine($"{filename} BAD, {e.Message}");
     }
 }
