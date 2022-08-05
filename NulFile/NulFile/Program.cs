@@ -1,0 +1,1 @@
+﻿File.WriteAllText("NUL", "Sample");
