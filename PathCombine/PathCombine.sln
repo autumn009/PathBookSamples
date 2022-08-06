@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32728.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathCombine", "PathCombine\PathCombine.csproj", "{1D2294D8-81D5-4E5A-AF9B-AF017337DD3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D2294D8-81D5-4E5A-AF9B-AF017337DD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2294D8-81D5-4E5A-AF9B-AF017337DD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2294D8-81D5-4E5A-AF9B-AF017337DD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2294D8-81D5-4E5A-AF9B-AF017337DD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23DBA48E-AC9F-4ADF-BAEE-744BEC87EE93}
+	EndGlobalSection
+EndGlobal
