@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32728.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathCombineLimit", "PathCombineLimit\PathCombineLimit.csproj", "{A81B441F-3498-4597-BC15-2DB6D768635A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81B441F-3498-4597-BC15-2DB6D768635A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81B441F-3498-4597-BC15-2DB6D768635A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81B441F-3498-4597-BC15-2DB6D768635A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81B441F-3498-4597-BC15-2DB6D768635A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A15B2886-747F-4967-BE21-270AAA44EE7C}
+	EndGlobalSection
+EndGlobal
