@@ -1,0 +1,9 @@
+﻿Directory.SetCurrentDirectory(@"c:\Sample");
+Console.WriteLine(Path.GetFullPath("DON"));
+Console.WriteLine(Path.GetFullPath("CON.txt"));
+Console.WriteLine(Path.GetFullPath(@"Sample\CON"));
+Console.WriteLine(Path.GetFullPath("CON"));
+Console.WriteLine(Path.GetFullPath("NUL"));
+Console.WriteLine(Path.GetFullPath("AUX"));
+Console.WriteLine(Path.GetFullPath("LPT9"));
+Console.WriteLine(Path.GetFullPath("COM9"));
